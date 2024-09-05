@@ -9,7 +9,7 @@ use rtt_target::{rprintln, rtt_init_print};
 #[entry]
 fn main() -> ! {
     rtt_init_print!();
-    rprintln!("Hello, World!");
+    rprintln!("Chapter1");
     loop {
         rprintln!("Echo...");
         for _ in 0..100_000 {
