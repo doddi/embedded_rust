@@ -81,3 +81,23 @@ located in the local .cargo directory. Is what tells cargo to cross compile the
 
 Is your linker script that tells the compiler where to place the generated
 RAM and ROM sections.
+
+## Build and run
+
+```bash
+cargo size -- -Ax
+```
+
+Will give information on the size of the generated image.
+
+Ensure you micro:bit controller is connected to your computer via the USB
+
+If all looks good run the command:
+
+```bash
+cargo embed
+```
+
+that should build and flash you micro:bit controller.
+
+With RTTI enabled if all went well you should see text output on the console.
