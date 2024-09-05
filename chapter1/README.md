@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1 - Setup and tooling
 
 This is the first chapter the introduces you to what is needed to get a
 basic build of a hello world program.
