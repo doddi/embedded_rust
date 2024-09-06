@@ -4,6 +4,8 @@ The idea for this project is to create a simple project that slowly goes through
 
 Follow through each chapter to see the progress of the project.
 
+This project was inspired by the awesome work of [The Rusty Bits](https://www.youtube.com/@therustybits) channel on YouTube.
+
 ## Equipment
 
 - Micro:bit v1 board
