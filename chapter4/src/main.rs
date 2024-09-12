@@ -24,13 +24,17 @@ fn main() -> ! {
     let _ = gpio.p0_04.into_push_pull_output(Level::Low);
     let mut led = gpio.p0_13.into_push_pull_output(Level::High);
 
+    let mut is_on = false;
     loop {
-        if button.is_high().unwrap() {
-            rprintln!("Button is not pressed");
-            led.set_low().unwrap();
-        } else {
-            rprintln!("Button is pressed");
+        if is_on {
             led.set_high().unwrap();
+        } else {
+            led.set_low().unwrap();
         }
+
+        for _ in 0..50_000 {
+            cortex_m::asm::nop();
+        }
+        is_on = !is_on;
     }
 }

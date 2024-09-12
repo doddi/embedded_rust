@@ -23,6 +23,8 @@ That's it!
 
 ### [Chapter 4 - Using the HAL](/chapter4/README.md)
 
+### [Chapter 5 - Using a BSP](/chapter5/README.md)
+
 ## Useful links
 
 - [Rust](https://www.rust-lang.org/)
