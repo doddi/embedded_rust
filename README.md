@@ -21,6 +21,8 @@ That's it!
 
 ### [Chapter 3 - Using a Peripheral Access Controller (PAC)](chapter3/README.md)
 
+### [Chapter 4 - Using the HAL](/chapter4/README.md)
+
 ## Useful links
 
 - [Rust](https://www.rust-lang.org/)
